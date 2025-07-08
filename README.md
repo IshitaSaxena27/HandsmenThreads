@@ -1,61 +1,102 @@
-🧵 HandsMen Threads - Salesforce Project
-Elevating the Art of Sophistication in Men's Fashion
+# 🧵 HandsMen Threads - Salesforce Project  
+**Elevating the Art of Sophistication in Men's Fashion**
 
-This project represents a Salesforce-based digital transformation initiative for HandsMen Threads, a forward-thinking fashion brand. The goal is to streamline internal operations and enhance customer engagement through intelligent automation, robust data models, and personalized user experiences.
+This project showcases a Salesforce-based digital transformation initiative for **HandsMen Threads**, a modern fashion brand redefining operational efficiency and customer engagement. Built with automation, data integrity, and intelligent design at its core, this solution empowers internal teams while enhancing the customer experience.
 
-🚀 Project Overview
-HandsMen Threads is implementing Salesforce to centralize data, automate core workflows, and boost operational efficiency. The application is designed for use by sales, customer service, and inventory management teams to ensure seamless communication and real-time insights across departments.
+---
 
-🛠️ Key Features
-✅ Automated Order Confirmations
-Customers receive order confirmation emails instantly after placing an order.
+## 🚀 Project Overview
 
-🏆 Dynamic Loyalty Program
-Customers' loyalty statuses update automatically based on their purchase history.
+HandsMen Threads leverages the Salesforce ecosystem to:
+- Centralize and manage business-critical data
+- Automate daily workflows for sales, support, and inventory
+- Enable real-time insights and cross-department collaboration
 
-📦 Proactive Stock Alerts
-Inventory alerts are sent when stock drops below 5 units, ensuring proactive replenishment.
+The goal is to create a seamless digital experience for internal users while improving response times and overall productivity.
 
-🕛 Scheduled Bulk Order Updates
-Nightly batch jobs process bulk orders, update financial records, and adjust inventory automatically.
+---
 
-📐 Data Model Highlights
-Custom Objects:
+## 🛠️ Key Features
 
-Customer
-Order
-Product
-LoyaltyTier
-Inventory
-Relationships:
+- ✅ **Automated Order Confirmations**  
+  Customers instantly receive email confirmations post-purchase.
 
-One-to-many between Customers and Orders
-Many-to-one between Orders and Products
-One-to-one between Customer and LoyaltyTier
-⚙️ Technologies & Tools Used
-Tool	Purpose
-Salesforce Lightning App Builder	Custom UI and layout creation
-Record-Triggered Flows	Automate real-time operations
-Apex Triggers	Execute logic like updating loyalty status
-Batch Apex	Process bulk records (e.g., orders) asynchronously
-Validation Rules	Ensure data integrity from UI
-Scheduled Apex	Run nightly inventory & order updates
-📚 What I Learned
-Designing scalable Salesforce Data Models
-Implementing automation with Flows and Apex
-Maintaining data integrity using validation rules and Flow error handling
-Building custom apps with Lightning App Builder
-Writing Apex and Asynchronous Apex for complex operations
-👨‍💻 Author
-Vishwasjeet Kumar Gupta
-Salesforce Developer | B.Tech CSE | Passionate about CRM Solutions
-LinkedIn Profile
+- 🏆 **Dynamic Loyalty Program**  
+  Loyalty statuses update automatically based on customer purchase history.
 
-🔗 Project Links
-🎥 Demo Video: Coming soon...
-💻 GitHub Repository: https://github.com/vishwas7782/HandsmenThreads
-📄 License
-This project is for academic and showcase purposes. Please feel free to fork or reference for learning purposes.
+- 📦 **Proactive Stock Alerts**  
+  Inventory alerts are triggered when product stock falls below 5 units.
 
-💬 Feedback
-Have suggestions or want to collaborate? Feel free to open an issue or drop me a message!
+- 🕛 **Scheduled Bulk Order Updates**  
+  Nightly Apex batch jobs process orders, adjust inventory, and update financial records.
+
+---
+
+## 📐 Data Model Highlights
+
+**Custom Objects:**
+- `Customer`
+- `Order`
+- `Product`
+- `LoyaltyTier`
+- `Inventory`
+
+**Relationships:**
+- One-to-many: `Customer` → `Orders`
+- Many-to-one: `Orders` → `Products`
+- One-to-one: `Customer` ↔ `LoyaltyTier`
+
+---
+
+## ⚙️ Technologies & Tools Used
+
+| Tool / Feature               | Purpose                                         |
+|-----------------------------|--------------------------------------------------|
+| Salesforce Lightning App    | Custom UI and layout creation                   |
+| Record-Triggered Flows      | Real-time automation of business processes      |
+| Apex Triggers               | Execute custom logic (e.g., loyalty updates)    |
+| Batch Apex                  | Process bulk data asynchronously                |
+| Validation Rules            | Maintain data integrity at the UI level         |
+| Scheduled Apex              | Automate nightly updates for inventory/orders   |
+
+---
+
+## 📚 What I Learned
+
+- Designing scalable, normalized data models in Salesforce
+- Using Flows and Apex to automate business logic
+- Ensuring data consistency with validation rules and error handling
+- Building modular Lightning apps for streamlined user experience
+- Implementing batch and asynchronous Apex operations
+
+---
+
+## 👨‍💻 Author
+
+**Ishita Saxena**  
+Salesforce Developer | B.Tech in CSE - Data Science | Passionate about CRM & Cloud Solutions  
+[LinkedIn Profile](#) https://www.linkedin.com/in/ishita-saxena-9537142a3
+
+---
+
+## 🔗 Project Links
+
+- 🎥 **Demo Video**: _Coming soon..._  
+- 💻 **GitHub Repository**: https://github.com/vishwas7782/HandsmenThreads
+
+---
+
+## 📄 License
+
+This project is developed for educational and portfolio purposes.  
+Feel free to fork, adapt, or reference it for learning.
+
+---
+
+## 💬 Feedback & Collaboration
+
+Got suggestions or want to collaborate?  
+Feel free to open an issue or drop me a message!
+
+---
+
