@@ -75,7 +75,7 @@ The goal is to create a seamless digital experience for internal users while imp
 
 **Ishita Saxena**  
 Salesforce Developer | B.Tech in CSE - Data Science | Passionate about CRM & Cloud Solutions  
-[LinkedIn Profile](#) https://www.linkedin.com/in/ishita-saxena-9537142a3
+**LinkedIn Profile**: https://www.linkedin.com/in/ishita-saxena-9537142a3
 
 ---
 
