@@ -82,8 +82,7 @@ Salesforce Developer | B.Tech in CSE - Data Science | Passionate about CRM & Clo
 ## 🔗 Project Links
 
 - 🎥 **Demo Video**: _Coming soon..._  
-- 💻 **GitHub Repository**: https://github.com/vishwas7782/HandsmenThreads
-
+- 💻 **GitHub Repository**: https://github.com/IshitaSaxena27/HandsmenThreads
 ---
 
 ## 📄 License
